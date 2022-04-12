@@ -261,3 +261,31 @@ textarea {
   }
 }
 
+.about-me-paragraphy{
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar{
+  background-color: #FAF9F6;
+}
+.sidebar-links{
+background-color:#B2AC88;
+padding: 25px;
+display: flex;
+justify-content: space-around;
+font-size: 18px;
+color:#FAF9F6 ;
+}
+
+.links{
+  color: #FAF9F6;
+}
+.logo{
+max-width: 100%;
+height: auto;
+width:200px;
+display: flex;
+align-items: flex-end;
+}
