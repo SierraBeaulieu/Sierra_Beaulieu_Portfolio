@@ -310,15 +310,101 @@ align-items: flex-end;
   color: #3E442B;
 }
 
-/* gallery */
-.grid-gallery{
-  width: 100%;
+.baseball-link{
+display: flex;
+align-items: flex-end;
+max-width: 100%;
+height: auto;
+width: 750px;
+
+}
+
+
+.baseball-gallery-grid {
+  max-width: 100%;
   height: auto;
+  width: 500px;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax (120px, 1fr));
-  grid-gap: .25rem;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 0.25rem;
   list-style-type: none;
   padding-left: 0;
 }
 
+@media (min-width: 1000px) {
+  .baseball-gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
 
+/* dropdown box */
+
+/* Navbar container */
+.grid-gallery {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.grid-gallery a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdowng {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdowng .dropname {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.gallery-dropdown a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-galleries {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-galleries a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-galleries a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdowng:hover .dropdown-galleries {
+  display: block;
+}
