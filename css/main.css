@@ -264,7 +264,12 @@ textarea {
 .about-me-paragraphy{
   color: black;
   display: flex;
-  align-items: center;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 30px;
+ color: #3E442B;
+ size: 25px;
 }
 
 .sidebar{
@@ -288,4 +293,19 @@ height: auto;
 width:200px;
 display: flex;
 align-items: flex-end;
+}
+
+.headshot{
+  max-width: 100%;
+  height: auto;
+  width:400px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.titles{
+  display: flex;
+  justify-content: center;
+  color: #3E442B;
 }
