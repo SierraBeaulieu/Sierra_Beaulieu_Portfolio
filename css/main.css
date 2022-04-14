@@ -309,3 +309,16 @@ align-items: flex-end;
   justify-content: center;
   color: #3E442B;
 }
+
+/* gallery */
+.grid-gallery{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax (120px, 1fr));
+  grid-gap: .25rem;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
