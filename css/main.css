@@ -319,11 +319,12 @@ width: 750px;
 
 }
 
-
-.baseball-gallery-grid {
+.baseball-gallery-pic{
   max-width: 100%;
   height: auto;
-  width: 500px;
+}
+
+.baseball-gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   grid-gap: 0.25rem;
