@@ -330,6 +330,7 @@ width: 750px;
   grid-gap: 0.25rem;
   list-style-type: none;
   padding-left: 0;
+  max-width: 100%;
 }
 
 @media (min-width: 1000px) {
