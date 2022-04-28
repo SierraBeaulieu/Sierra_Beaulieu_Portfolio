@@ -272,6 +272,12 @@ textarea {
  size: 25px;
 }
 
+@media (min-width: 1000px) {
+  .about-me-paragraphy {
+    max-width: 800px;
+  }
+}
+
 .sidebar{
   background-color: #FAF9F6;
 }
@@ -283,16 +289,36 @@ justify-content: space-around;
 font-size: 18px;
 color:#FAF9F6;
 }
+
+
+.sidebar-links a{
+  padding: 4px;
+  color: #FAF9F6;
+
+}
+.sidebar-links-moble a{
+  color: #FAF9F6;
+}
+
 .sidebar-links a:hover{
   background-color: #534f36;
-  padding: 4px;
 
 }
 
-.links{
-  color: #FAF9F6;
-  
+.sidebar-links-moble{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: #928c67;
+  position: absolute;
+  top: 132px;
+  left: 0;
+  right: 0;
 }
+.sidebar-links-moble a{
+  padding: 8px;
+}
+
 .logo{
 max-width: 100%;
 height: auto;
@@ -469,6 +495,23 @@ width: 750px;
   text-align: center;
   padding: 20px;
   list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1000px) {
+  .packages {
+    max-width: 800px;  }
+}
+
+@media (min-width: 1000px) {
+  .package-list {
+    max-width: 800px;  }
+}
+
+@media (min-width: 1000px) {
+  .work-experience {
+    max-width: 800px;  }
 }
 
 .footer{
@@ -480,4 +523,30 @@ width: 750px;
   text-align: center;
   list-style-type: none;
   padding: 110px;
+}
+
+@media (max-width: 999px) {
+  .sidebar-links {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .welcome {
+    max-width: 800px;  }
+}
+
+
+.three-line,
+.icon,
+.menei{
+  width: 25px;
+}
+
+.header {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
