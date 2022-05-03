@@ -24,16 +24,24 @@
 
 <body>
   <div class="sidebar">
-    <img class="logo" src="Sierra-Beaulieu-black-high-res.png" alt="This is my logo.">
+    <header class="header">
+      <img class="logo" src="Sierra-Beaulieu-black-high-res.png" alt="This is my logo.">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img class="menei" src="img/three-lines.png" alt="This is a meneu icon.">
+      </a>
+    </header>
+
     <div class="sidebar-links">
       <a class="links" href="index.html">Home</a>
       <a class="links" href="about.html">About Me</a>
       <a class="links" href="work-experience.html">Work Experience</a>
-      
+      <a class="links" href="packages.html">Packages</a>
+      <a class="links" href="contact.html">Contact Me</a>
+
       <div class="gallery-dropdown">
        
         <div class="dropdowng">
-          <button class="dropname">Galleries 
+          <button class="dropname"> <a href="galleries.html"></a> Galleries 
             <i class="dropitlow"></i>
           </button>
           <div class="dropdown-galleries">
@@ -44,8 +52,45 @@
           </div>
         </div> 
       </div>
+    </div>
+      <div class="gallery-dropdown">
+       
+        <div class="dropdowng">
+          <button class="dropname"> <a href="galleries.html"></a> Galleries 
+            <i class="dropitlow"></i>
+          </button>
+          <div class="dropdown-galleries">
+            <a href="galleries.html">Galleries</a>
+            <a href="baseball-gallery.html">LSU Baseball</a>
+            <a href="Maeve-Senior-gallery.html">Maeve's Senior Portraits</a>
+            <a href="gymnastics-gallery.html">LSU Gymnastics</a>
+          </div>
+        </div> 
+      </div>
+     
+    </div>
+
+    <div class="sidebar-links-moble" id="myLinks">
+      <a class="links-moble" href="index.html">Home</a>
+      <a class="links-moble" href="about.html">About Me</a>
+      <a class="links-moble" href="work-experience.html">Work Experience</a>
       <a class="links" href="packages.html">Packages</a>
       <a class="links" href="contact.html">Contact Me</a>
+
+      <div class="gallery-dropdown">
+       
+        <div class="dropdowng">
+          <button class="dropname"> <a href="galleries.html"></a> Galleries 
+            <i class="dropitlow"></i>
+          </button>
+          <div class="dropdown-galleries">
+            <a href="galleries.html">Galleries</a>
+            <a href="baseball-gallery.html">LSU Baseball</a>
+            <a href="Maeve-Senior-gallery.html">Maeve's Senior Portraits</a>
+            <a href="gymnastics-gallery.html">LSU Gymnastics</a>
+          </div>
+        </div> 
+      </div>
     </div>
     <div>
       <h1 class="contact-title">Contact Me</h1> <br>
@@ -77,5 +122,5 @@
   </div>
   <footer class="footer"> Sierra Beaulieu Photography established 2019.</footer>
 </body>
-
+<script src="js/main.js"></script>
 </html>
