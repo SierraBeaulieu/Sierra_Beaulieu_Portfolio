@@ -314,6 +314,7 @@ color:#FAF9F6;
   top: 132px;
   left: 0;
   right: 0;
+  z-index: 10;
 }
 .sidebar-links-moble a{
   padding: 8px;
@@ -363,6 +364,7 @@ width: 750px;
   list-style-type: none;
   padding-left: 0;
   max-width: 100%;
+  width: 100%;
 }
 
 @media (min-width: 1000px) {
@@ -408,6 +410,8 @@ width: 750px;
 }
 
 /* Add a red background color to navbar links on hover */
+
+
 .gallery-dropdown a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
