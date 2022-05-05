@@ -283,26 +283,26 @@ textarea {
   background-color: #FAF9F6;
 }
 .sidebar-links{
-background-color:#928c67;
+background-color:#3E442B;
 padding: 25px;
 display: flex;
 justify-content: space-around;
 font-size: 18px;
-color:#FAF9F6;
+color: white;
 }
 
 
 .sidebar-links a{
   padding: 4px;
-  color: #FAF9F6;
+  color: white;
 
 }
 .sidebar-links-moble a{
-  color: #FAF9F6;
+  color: white;
 }
 
 .sidebar-links a:hover{
-  background-color: #534f36;
+  background-color: #857f59;
 
 }
 
@@ -507,9 +507,11 @@ width: 750px;
 .thank-you{
   text-align: center;
   padding: 20px;
+  size: 25px;
   list-style-type: none;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media (min-width: 1000px) {
