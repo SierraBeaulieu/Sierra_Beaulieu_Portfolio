@@ -298,7 +298,7 @@ color: white;
 
 }
 .sidebar-links-moble a{
-  color: white;
+  color: white;;
 }
 
 .sidebar-links a:hover{
@@ -310,7 +310,7 @@ color: white;
   display: none;
   flex-direction: column;
   align-items: center;
-  background-color: #928c67;
+  background-color: #3E442B;
   position: absolute;
   top: 132px;
   left: 0;
