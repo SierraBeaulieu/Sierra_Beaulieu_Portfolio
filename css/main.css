@@ -343,6 +343,7 @@ align-items: flex-end;
   justify-content: center;
   color: #3E442B;
   font-family: 'PT Serif', serif;
+  width: 100%;
 }
 
 .baseball-link{
